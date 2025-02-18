@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Inconsolata:wght@200..900&family=Josefin+Sans:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Giga:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+IN:wght@100..400&family=Signika+Negative:wght@300..700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=humidity_percentage" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <link rel="stylesheet" href="weather.css">
+
+    <title>My Weather App</title>
+</head>
+
+<body>
+    <form action="#"  onsubmit="return false;">
+    <h2 style="text-align: center;margin-top: 2em;">Welcome To Weather App </h2>
+
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">
+            <i class="fa-brands fa-searchengin"></i>
+        </button>
+    </div>
+    
+    <!-- <div class="gif">
+        <img src="evaporation.gif">
+    </div> -->
+
+<div id="box1">
+    <div class="content">
+            <div class="info">
+                <label id="cityl"> </label>
+                <p id="city"> </p>
+            </div>
+            <div class="info">
+                <label id="statel"> </label>
+                <p id="state"> </p>
+            </div>
+            <div class="info">
+                <label id="countryl"> </label>
+            <p id="count"></p>
+    </div>
+</div>
+
+    <img src="" >  
+    
+    <div class="box3">
+        
+        <div class="info">
+            <label id="wind"></label>
+            <p id="windv"></p>
+        </div>
+        <div class="info">
+            <label id="humid"></label>
+            <p id="humidv"></p>
+        </div>
+        <div class="info">
+            <label id="pre"></label>
+            <p id="prev"></p>
+        </div>
+        <div class="info">
+            <label id="date"></label>
+            <p id="datev"></p>
+        </div>
+        <div class="info">
+            <label id="last"></label>
+            <p id="lastv"></p>
+        </div>
+
+        
+    </div>
+    
+        <span><h1 id="temp"></h1><br>
+            <p id="condn"></p>
+        </span>
+        
+</div>
+</form>
+
+
+    <script src="weather.js"></script>
+</body>
+
+</html>
+
+
+
